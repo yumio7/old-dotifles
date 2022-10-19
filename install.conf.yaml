@@ -1,0 +1,19 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.bashrc: bashrc
+    ~/.gitconfig: .gitconfig
+    ~/.config/hypr/hypr.conf:
+      force: true
+      path: hypr/hypr.conf
+    ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
+    ~/.config/picom/picom.conf: picom/picom.conf
+    ~/.config/polybar/config.ini: polybar/config.ini
+    ~/.config/fish/config.fish: fish/config.fish
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

@@ -1,0 +1,5 @@
+fish/fishd*
+fish/fish_variables
+fish/fish_history
+.vim/
+.bash_history
