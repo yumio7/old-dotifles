@@ -4,6 +4,7 @@
 killall polybar
 
 # Launch polybar
-polybar example
+polybar -q left
+polybar -q right
 
 fi
