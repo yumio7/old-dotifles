@@ -1,0 +1,8 @@
+set icons
+set number
+set relativenumber
+map e $nvim "$f"
+
+map T push $touch<space>
+map M push $mkdir<space>
+map D :delete "$f"

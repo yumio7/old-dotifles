@@ -19,6 +19,8 @@
     ~/.config/nvim/init.vim: nvim/init.vim
     ~/.config/nvim/lua: nvim/lua
     ~/.config/chrome-flags.conf: chrome/chrome-flags.conf
+    ~/.config/lf/lfrc: lf/lfrc
+    ~/.config/lf/icons: lf/icons
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
