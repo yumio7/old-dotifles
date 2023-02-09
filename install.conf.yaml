@@ -20,6 +20,7 @@
     ~/.config/chrome-flags.conf: chrome/chrome-flags.conf
     ~/.config/lf/lfrc: lf/lfrc
     ~/.config/lf/icons: lf/icons
+    ~/.config/btop: btop
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
